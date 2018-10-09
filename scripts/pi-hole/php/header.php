@@ -349,7 +349,7 @@ if($auth) {
                     ?>
                     <br/>
                     <?php
-                    echo "<a title=\"Detected $nproc cores\"><i class=\"fa fa-circle\" style=\"color:";
+                    echo "<a title=\"Detected $nproc cores (Average on last 1/5/15 minute)\"><i class=\"fa fa-circle\" style=\"color:";
                         if ($loaddata[0] > $nproc) {
                             echo "#FF0000";
                         }
